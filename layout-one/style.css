@@ -1,0 +1,74 @@
+body{
+  margin: 0px;
+}
+
+header{
+  font-size: 150%;
+  margin: 0px;
+  padding: 40px 20px;
+}
+
+#content-wrapper{
+  padding: 10px 20px;
+}
+
+
+aside{
+  float: left;
+  padding: 10px 0px;
+  width: 300px;
+}
+
+main{
+  margin-left:300px;
+  padding: 10px 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+/*Typo at the last always*/
+body{
+  font-family: sans-serif;
+}
+
+/*Jquery UI fixes */
+
+#menu01{
+  display: block;
+}
+
+.ui-helper-clearfix{
+  clear: none;
+}
+
+.ui-helper-clearfix:after{
+  clear: none;
+}
